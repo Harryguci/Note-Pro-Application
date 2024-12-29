@@ -2,6 +2,7 @@ class Note {
   public id: string;
   public x: number;
   public y: number;
+  public cardSize: { width: number; height: number } = { width: 0, height: 0 };
   public content: string;
 
   constructor({
