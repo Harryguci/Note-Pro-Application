@@ -1,0 +1,42 @@
+.note-page-container {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.note-page-container .note-page-container__navigator-wrapper {
+  background-color: #282829;
+  color: white;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  padding: 1rem;
+}
+
+.note-page-container__navigator-wrapper .btn-default {
+  color: rgb(218, 218, 218);
+  font-size: 0.8rem;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+
+.note-page-container__navigator-wrapper__add-page-btn {
+  color: rgb(217, 214, 255);
+  font-size: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0.5px solid rgb(217, 214, 255);
+  transition: all 0.2s ease-in-out;
+}
+
+.note-page-container__navigator-wrapper__add-page-btn:hover {
+  color: rgb(217, 214, 255);
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.5px solid rgb(217, 214, 255);
+}
+
+.note-page-container__navigator-wrapper .btn-default:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.note-page-container__navigator__item.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
